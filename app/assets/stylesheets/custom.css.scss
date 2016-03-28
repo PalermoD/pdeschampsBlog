@@ -3,7 +3,35 @@
 @import "font-awesome";
 
 
+#logo {
+	float: left;
+	margin-right: 3px;
+	font-size: 1.7em;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	margin-left:15px;
+}
 
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.navbar-inverse {
+	background:transparent;
+	border-color: transparent;
+	
+}
+
+.navbar-collapse {
+	
+	border-color: white;
+	
+}
 
 .mugshot{
    position: absolute;
@@ -71,7 +99,6 @@
    top: 52%;
    left: 51%;
    width: 300px;
-   height: 300px;
    margin-top: 120px; /* Half the height */
    margin-left: -150px; /* Half the width */
    border-radius: 50%;
