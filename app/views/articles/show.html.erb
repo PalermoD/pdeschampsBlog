@@ -1,11 +1,8 @@
 <div class="container">
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+  <div class="col-md-10 blog_box">
+    <h2 class="about"><%= @article.title %></h2>
+  
+    <%= raw(@article.text) %>
  
-<p>
-  <strong>Text:</strong>
-  <%= @article.text %>
-</p>
+  </div>
 </div>

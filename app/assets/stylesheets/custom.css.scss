@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import "bootstrap-wysihtml5/bootstrap3-wysihtml5";
 
 
 #logo {
@@ -134,11 +135,28 @@ p {
 	color: white;
 }
 
+.blog_text {
+	text-align: center;
+	color: black;
+}
+
 
 .about_box {
 	background-color: black;
 	opacity: 0.8;
-	margin-top: 100px;
+	margin-top: 75px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.blog_box {
+	background-color: black;
+	opacity: 0.8;
+	margin-top: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 	float: none;
@@ -187,4 +205,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+
+.index-body { 
+  background:white !important; 
 }

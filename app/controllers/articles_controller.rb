@@ -4,27 +4,46 @@ class ArticlesController < ApplicationController
 	 def index
        @articles = Article.all
      end
+
+    
  
      def show
         @article = Article.find(params[:id])
+       
+
+        respond_to do |format|
+        format.html  #show.html.erb
+        format.json { render json: @article }
+      end
      end
  
-     def new
-     end
+    def new
+        @article = Article.new
+        respond_to do |format|
+        format.html #new.html.erb
+        format.json { render json: @article }
+       end
+    end
 
      def edit
        @article = Article.find(params[:id])
      end
 
 	def create
-       @article = Article.new(article_params)
- 
-       if @article.save
-         redirect_to @article
-       else
-         render 'new'
-       end
+      @article = Article.new(article_params)
+      respond_to do |format|
+      if @article.save
+        format.html { redirect_to @article, notice: 'Announcement was successfully created.' }
+        format.json { render json: @article, status: :created, location: @article }
+      else
+        format.html { render action: "new" }
+        
+      end
     end
+  end
+ 
+    
+    
 
     def update
        @article = Article.find(params[:id])
@@ -42,6 +61,8 @@ class ArticlesController < ApplicationController
  
        redirect_to articles_path
     end
+
+   
 
     private
       def article_params

@@ -9,8 +9,9 @@
  
   <p>
     <%= f.label :text %><br>
-    <%= f.text_area :text, class: 'form-control' %>
+    <%= f.text_area :text, class: 'form-control form'%>
   </p>
+ 
  
   <p>
     <%= f.submit %>
@@ -20,3 +21,18 @@
 <%= link_to 'Back', articles_path %>
 
 </div>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $('.form').each(function(i, elem) {
+      $(elem).wysihtml5();
+    });
+
+  })
+</script>
+
+
+
