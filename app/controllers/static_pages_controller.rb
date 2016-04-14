@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
-  caches_page :index, :about, :portfolio
+  
 
   def index
   end
@@ -9,4 +9,5 @@ class StaticPagesController < ApplicationController
 
   def portfolio
   end
+  
 end
