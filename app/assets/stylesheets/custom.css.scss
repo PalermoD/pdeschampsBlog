@@ -3,6 +3,14 @@
 @import "font-awesome";
 @import "bootstrap-wysihtml5/bootstrap3-wysihtml5";
 
+body {
+	
+	background-color: rgb(77, 186, 217);
+}
+
+.navbar-nav > li > a {
+	color: white !important;
+}
 
 #logo {
 	float: left;
@@ -31,7 +39,7 @@
 
 
 .navbar-inverse {
-	background:white;
+	background-color: rgb(241, 56, 59);
 	border-color: transparent;
 	
 }
@@ -69,6 +77,7 @@
    padding-left: 35px;
    margin-top: -245px; /* Half the height */
    margin-left: -245px; /* Half the width */
+   color: white;
   
 }
 
@@ -79,6 +88,7 @@
    left: 52%;
    margin-top: -210px; /* Half the height */
    margin-left: -210px; /* Half the width */
+   color: black;
 }
 
 .fa-lg {
@@ -108,13 +118,14 @@
 
 
 .social {
+   
    position: absolute;
    top: 52%;
    left: 51%;
    width: 300px;
    margin-top: 120px; /* Half the height */
    margin-left: -150px; /* Half the width */
-   border-radius: 50%;
+   color:black;
    padding-top: 10px;
    clear:both
 }
@@ -230,3 +241,8 @@ h1 {
 	color: white;
 	opacity: 0.7;
 }
+
+.home {
+	color: black;
+}
+
