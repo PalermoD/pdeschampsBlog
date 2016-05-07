@@ -83,7 +83,7 @@ body {
    padding-left: 35px;
    margin-top: -245px; /* Half the height */
    margin-left: -245px; /* Half the width */
-   color: white;
+   color: black;
   
 }
 
@@ -94,7 +94,7 @@ body {
    left: 52%;
    margin-top: -210px; /* Half the height */
    margin-left: -210px; /* Half the width */
-   color: black;
+   color: gray;
 }
 
 .fa-lg {
@@ -219,13 +219,13 @@ h1 {
 
 
 
-/*body { 
+body { 
   background: url(digi.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 
 .index-body { 
@@ -256,7 +256,7 @@ h1 {
 }
 
 .home:hover {
-	color: white;
+	color: gray;
 }
 
 .navbar-nav > li:hover {
