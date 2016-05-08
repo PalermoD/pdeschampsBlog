@@ -261,9 +261,7 @@ h1 {
 	color: black;
 }
 
-.home:hover {
-	color: gray;
-}
+
 
 .navbar-nav > li:hover {
     background-color: white;
@@ -274,5 +272,21 @@ h1 {
   right: 1%;
   position: fixed;
   width: 80px;
+}
+
+.home1:hover {
+	color: rgb(43, 162, 245);
+}
+
+.home3:hover {
+	color: rgb(45, 117, 180);
+}
+
+.home4:hover {
+	color: rgb(214, 82, 45);
+}
+
+.home2:hover {
+	color:gray;
 }
 
