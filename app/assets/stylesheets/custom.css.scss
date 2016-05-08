@@ -65,7 +65,7 @@
    margin-top: -150px; /* Half the height */
    margin-left: -150px; /* Half the width */
    border-radius: 50%;
-
+   border: solid;
    clear:both
 }
 
@@ -229,14 +229,14 @@ h1 {
 }*/
 
 
-.index-body { 
+/*.index-body { 
   
   background: url(digi.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .port-row {
 	background-color: rgb(50, 50, 50);
@@ -267,5 +267,12 @@ h1 {
 
 .navbar-nav > li:hover {
     background-color: white;
+}
+
+.corner-logo {
+  bottom: 1%;
+  right: 1%;
+  position: fixed;
+  width: 80px;
 }
 
