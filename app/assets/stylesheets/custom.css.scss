@@ -198,7 +198,7 @@ p {
 
 .portfolio {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 h3 {
@@ -241,8 +241,8 @@ h1 {
 }*/
 
 .port-row {
-	background-color: rgb(50, 50, 50);
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 10px;
 	margin-bottom: 20px;
 	padding-left: 20px;
@@ -250,6 +250,7 @@ h1 {
 	margin-left: 20px;
     margin-right: 20px;
     border-radius: 1%;
+    
 
 }
 
@@ -290,5 +291,20 @@ h1 {
 
 .home2:hover {
 	color:gray;
+}
+
+.port-img {
+	box-shadow: 10px 10px 5px gray;
+	padding: 10px;
+	margin-bottom: 10px; 
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
 }
 
