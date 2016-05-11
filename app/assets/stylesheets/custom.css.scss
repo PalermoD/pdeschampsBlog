@@ -66,7 +66,8 @@
    margin-left: -150px; /* Half the width */
    border-radius: 50%;
    border: solid;
-   clear:both
+   
+   box-shadow: 8px 8px 5px gray;
 }
 
 .image {
@@ -160,7 +161,6 @@ p {
 
 .about_box {
 	background-color: white;
-	
 	margin-top: 75px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -171,6 +171,7 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
     border: solid;
+    box-shadow: 10px 10px 5px gray;
 }
 
 
