@@ -17,6 +17,7 @@
 //= require bootstrap
 //= require bootstrap-sprockets
 //= require bootstrap-wysihtml5
+//= require addthis
 
 
 
