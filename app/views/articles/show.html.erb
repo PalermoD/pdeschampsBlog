@@ -3,16 +3,24 @@
 
 
 
-<div class="col-md-10 blog_box">
-<div class="container">
-  <div class="col-md-10">
+<div class="col-md-7 blog_box">
+
+  <div >
       <h2><%= @article.title %></h2>
       <h5>By Palermo Deschamps</h5>
      
       <p class="blog_text"><%= raw(@article.text) %></p>
      
   </div>
+  <div class="fb-comments" data-href="http://www.pdeschamps.com/articles" data-numposts="5"></div>
 </div>
+</div>
+
+<div class="col-md-3 sidebox">
+	<h1>Blog Roll</h1>
+	<% @articles.each do |article| %>
+      <h3><%= link_to article.title, article %></h3>
+   <% end %>
 </div>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
