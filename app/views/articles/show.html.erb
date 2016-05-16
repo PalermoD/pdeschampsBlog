@@ -17,9 +17,22 @@
 </div>
 
 <div class="col-md-3 sidebox">
+	<h1>Palermo Deschamps</h1>
+	<%= image_tag "graphicblue.png", :class => "mugshotblog" %>
+	<center style="margin-top:12px;">
+	<a href="https://twitter.com/palermo_tweets"><i class="fa fa-twitter-square fa-lg"></i></a>
+	<a href="https://github.com/PalermoD"><i class="fa fa-github-square fa-lg whitehub"></i></a>
+	<a href="https://www.linkedin.com/in/palermod"><i class="fa fa-linkedin-square fa-lg "></i></a>
+	<a href=".google.com/u/0/+PalermoDeschamps"><i class="fa fa-google-plus-square fa-lg"></i></a>
+	<p>palermo.deschamps@gmail.com</p>
+	</center>
+</div>
+
+<div class="col-md-3 sidebox2">
 	<h1>Blog Roll</h1>
+	
 	<% @articles.each do |article| %>
-      <h3><%= link_to article.title, article %></h3>
+      <h4><%= link_to article.title, article %></h4>
    <% end %>
 </div>
 
