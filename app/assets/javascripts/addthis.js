@@ -14,7 +14,10 @@ initAdthis = function(){
     $.getScript("http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561d19ed2311e169");
 }
 
+
+
 // Trigger the function on both jquery's ready event and turbolinks page:change event
 $(document).on('ready page:change', function() {
     initAdthis();
+    
 });
