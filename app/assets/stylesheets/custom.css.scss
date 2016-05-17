@@ -65,6 +65,7 @@ body {
    margin-left: -150px; /* Half the width */
    border-radius: 50%;
    border: solid;
+  
    box-shadow: 8px 8px 5px gray;
    
 }
@@ -274,13 +275,13 @@ h1 {
 
 /*.index-body { 
   
-  background: url(https://secure.static.tumblr.com/a86559eec3ae40464360efe0dba79478/zrvanyv/Yg3nb4kt0/tumblr_static_minimal_new_york_by_kevichan-d61zr27.jpg) no-repeat center center fixed; 
+  background: url(http://www.picturesforwalls.com/image.php/wallpapers/SDIM0639.jpg?width=800&height=528&cropratio=3:2&image=/wallpapers/SDIM0639.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
-
+}
+*/
 .index-body { 
   
   background:white;
@@ -361,11 +362,42 @@ iframe {
 	width: 100% !important;
 }
 
-span {
-	width: 100% !important;
-}
+
 
 #blog {
 	background-color: #D6D6D6 !important;
 }
 
+@media only screen and (max-width: 1000px) {
+    .sidebox2 {
+        display: none;
+    }
+
+    .sidebox {
+        display: none;
+    }
+
+    .blog_box {
+	    background-color: white;
+	    height: auto;
+	    margin-left: 0px;
+    }
+
+    .corner-logo {
+    	display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+   .job {
+    	display: none;
+
+    }
+
+    .name {
+    	display: none;
+    }
+}
