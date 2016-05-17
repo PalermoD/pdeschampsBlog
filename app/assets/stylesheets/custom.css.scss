@@ -94,10 +94,13 @@
    position: absolute;
    top: 47%;
    left: 52%;
+   font-weight: bold;
    padding-left: 35px;
    margin-top: -245px; /* Half the height */
    margin-left: -245px; /* Half the width */
    color: black;
+   letter-spacing: -1px;
+   
   
 }
 
@@ -108,7 +111,8 @@
    left: 52%;
    margin-top: -210px; /* Half the height */
    margin-left: -210px; /* Half the width */
-   color: gray;
+   color: black;
+   font-weight: bold;
 }
 
 .fa-lg {
@@ -264,18 +268,18 @@ h1 {
 
 
 
-body { 
+/*body { 
   background: url(http://pic.1fotonin.com/data/wallpapers/144/WDF_1857837.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 
 /*.index-body { 
   
-  background: url(http://cdn.paper4pc.com/images/black-red-waves-circles-psychedelic-simple-background-red-background-wallpaper-1.jpg) no-repeat center center fixed; 
+  background: url(http://www.tillingpeters.com/wp-content/uploads/2014/06/mp_banner_2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
