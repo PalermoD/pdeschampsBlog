@@ -235,6 +235,13 @@ p {
 	text-align: center;
 	color: black;
 }
+/*
+.boxx {
+	background-color: white;
+	border-radius: 1%;
+    box-shadow: 10px 10px 5px gray;
+}*/
+
 
 h3 > a {
 	text-align: center;
@@ -249,8 +256,9 @@ h3  {
 }
 
 h4 {
-	
-	color: gray;
+	margin-top: 10px !important;
+	color: black;
+	text-align: center;
 	
 }
 
