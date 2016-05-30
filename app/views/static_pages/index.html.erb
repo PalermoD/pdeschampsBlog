@@ -1,4 +1,97 @@
-<body class="index-body">
+<div class="header-img">
+	
+	<%= image_tag "splash.jpg", :class => "header-image" %>
+</div>
+
+<div id="next">
+	<div class="col-md-7 blog_box">
+	<h2 class="about">About Me</h2>
+	
+	<p class="about_text">
+		I am one of the hardest working software developers you will meet. On my off time I am usually at a tech meetup, or building out an idea in the latest and most popular technologies, at the moment that's react. I have an obsession with learning new things and solving tough problems. An example of my dedication was when I worked at sequel media and was tasked to rebuild the entire platform in a stack I never worked in, and was able to do so in a few months handling the devops, backend, database, and front-end improving performance and cutting down server costs from $5000 to $200. 
+	</p>
+	<p class="about_text">
+		I am up to date on best practices and terms and I’m fast and efficient. I am incredibly organized and very detail oriented; I rarely make errors and know what even a small mistake can mean to a project. I am also a thorough communicator and work well as part of a team in addition to my ability for self-direction.
+	</p>
+	<p class="about_text">
+		I've studied marketing, art, design, and can work comfortably throughout most stacks or learn them quickly. I have built my own startups in the past and understand business logic as it relates to what we are building and why. In short I'm a software engineer with a passion for building awesome and beautiful things.
+	</p>
+
+	<h3>Tech</h3>
+	<p class="about_text">
+		Ruby - Javascript - PHP - Ruby on Rails - Sinatra - Node - Express - React - Backbone - Angular - Laravel - HTML - CSS - SASS - Git - Mysql - Postgresql - Mongo - AWS - Devops 
+	</p>
+    <center style="margin-top:12px;">
+	<a href="https://twitter.com/palermo_tweets"><i class="fa fa-twitter-square fa-lg"></i></a>
+	<a href="https://github.com/PalermoD"><i class="fa fa-github-square fa-lg whitehub"></i></a>
+	<a href="https://www.linkedin.com/in/palermod"><i class="fa fa-linkedin-square fa-lg "></i></a>
+	<a href=".google.com/u/0/+PalermoDeschamps"><i class="fa fa-google-plus-square fa-lg"></i></a>
+	<p>palermo.deschamps@gmail.com</p>
+	</center>
+</div>
+
+<div class="col-md-3 sidebox">
+	<h1 >Palermo Deschamps</h1>
+	<%= image_tag "graphicblue.png", :class => "mugshotblog" %>
+	<center style="margin-top:12px;">
+	<a href="https://twitter.com/palermo_tweets"><i class="fa fa-twitter-square fa-lg"></i></a>
+	<a href="https://github.com/PalermoD"><i class="fa fa-github-square fa-lg whitehub"></i></a>
+	<a href="https://www.linkedin.com/in/palermod"><i class="fa fa-linkedin-square fa-lg "></i></a>
+	<a href=".google.com/u/0/+PalermoDeschamps"><i class="fa fa-google-plus-square fa-lg"></i></a>
+	<p >palermo.deschamps@gmail.com</p>
+	</center>
+</div>
+</div>
+
+<div id="next2">
+	<%= image_tag "cools.png", :class => "header-image" %>
+</div>
+
+<script>
+	
+$(".about-link").on('click', function(e) {
+   e.preventDefault();
+   $('html, body').animate({
+        scrollTop: $("#next").offset().top
+     }, 400);
+});
+
+$(".portfolio-link").on('click', function(e) {
+   e.preventDefault();
+   $('html, body').animate({
+        scrollTop: $("#next2").offset().top
+     }, 400);
+});
+
+$(".contact-link").on('click', function(e) {
+   e.preventDefault();
+   $('html, body').animate({
+        scrollTop: $("#next").offset().top
+     }, 400);
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <body class="index-body">
 	
 
 <div class="me_box">
@@ -20,4 +113,4 @@
     </center>
 </div>
 
-</body>
+</body> -->
