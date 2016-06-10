@@ -14,11 +14,15 @@
 //= require jquery_ujs
 //= require jquery.turbolinks
 //= require turbolinks
+
 //= require_tree .
 //= require bootstrap
 //= require bootstrap-sprockets
 //= require bootstrap-wysihtml5
 //= require addthis
+//= require turbolinks_transitions
+//= require nprogress
+//= require nprogress-turbolinks
 
 
 
