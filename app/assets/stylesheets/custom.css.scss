@@ -396,6 +396,14 @@ iframe {
       margin: 1px;
     }
 
+     .me_box {
+  background-color: #3E3E3E !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none !important;
+}
+
     
 }
 
@@ -419,6 +427,16 @@ iframe {
       width: 90% !important;
       margin: 1px;
     }
+
+    .me_box {
+  background-color: #3E3E3E !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none !important;
+}
+
+    
 }
 
 
@@ -435,4 +453,14 @@ iframe {
     border-radius: 10px;
     box-shadow: 8px 8px 5px black;
     padding: 0px;
+}
+
+
+.me_box {
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
+  box-shadow: 10px 10px 5px black;
 }
