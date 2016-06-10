@@ -12,8 +12,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
          
-          <li><a href="#next" class="fa fa-info-circle link about-link">about</a></li>
-          <li><a href="#next2" class="fa fa-picture-o link portfolio-link">portfolio</a></li>
+          <li><%= link_to " About", about_path, :class => 'fa fa-info-circle link' %></li>
+          <li><%= link_to " Portfolio", portfolio_path, :class => 'fa fa-picture-o link' %></li>
           <li><%= link_to " Blog", {controller: 'articles'}, :class => 'fa fa-book link' %></li>
           
         
@@ -21,4 +21,3 @@
     </div>
   </div>
 </header> 
-
