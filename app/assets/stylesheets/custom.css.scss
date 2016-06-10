@@ -5,7 +5,7 @@
 
 body {
 	
-	background-color: white ;
+	background-color: #D6D6D6 ;
 }
 
 .navbar-nav > li > a {
@@ -155,6 +155,7 @@ body {
 p {
 	
 	font-size: 18px;
+  margin-top:0px; 
 
 }
 
@@ -299,12 +300,10 @@ h1 {
 .port-row {
 	
 	color: black;
-	padding: 10px;
-	margin-bottom: 20px;
-	
-	margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 1%;
+	margin-right: auto;
+  margin-left: auto;
+	border-radius: 1%;
+  width: 100%;
     
 
 }
@@ -341,9 +340,12 @@ h1 {
 
 
 .port-img {
-	box-shadow: 10px 10px 5px gray;
+	
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 	
 	
 }
@@ -386,6 +388,11 @@ iframe {
     	display: none;
     }
 
+    .port-box {
+      width: 90% !important;
+      margin: 1px;
+    }
+
     
 }
 
@@ -404,6 +411,11 @@ iframe {
     .blog_box {
     	margin-top: 55px;
     }
+
+    .port-box {
+      width: 90% !important;
+      margin: 1px;
+    }
 }
 
 
@@ -411,4 +423,13 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.port-box {
+    background-color: white;
+    width: 30%;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px gray;
+    padding: 0px;
 }
