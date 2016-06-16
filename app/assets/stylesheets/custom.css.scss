@@ -7,7 +7,7 @@
 
 body {
 	
-	background-color: #3E3E3E;
+	background-color: white;
 }
 
 $nprogress-color: #f1f1f1;
@@ -50,7 +50,7 @@ $nprogress-color: #f1f1f1;
 
 
 .navbar-inverse {
-	opacity: 0.8;
+	
 	background-color: black;
 	border-color: transparent;
 	
@@ -198,25 +198,25 @@ p {
 
 .blog_box {
 	background-color: white;
-	margin-top: 75px;
+	margin-top: 65px;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: 80px;
     border-radius: 1%;
-    
-    box-shadow: 10px 10px 5px black;
+    border: solid;
+    box-shadow: 10px 10px 5px gray;
     margin-bottom: 30px;
     
 }
 
 .sidebox {
 	background-color: white;
-	margin-top: 75px;
+	margin-top: 65px;
 	text-align: center;
 	margin-left: 20px;
-	
-    box-shadow: 10px 10px 5px black;
-    border-radius: 1%;
+	border: solid;
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 10%;
 }
 
 .sidebox2 {
@@ -224,8 +224,8 @@ p {
 	margin-top: 8px;
 	text-align: center;
 	margin-left: 20px;
-	
-    box-shadow: 10px 10px 5px black;
+  border: solid;
+    box-shadow: 10px 10px 5px gray;
     border-radius: 1%;
 }
 
@@ -239,7 +239,7 @@ p {
 
 .portfolio {
 	text-align: center;
-	color: black;
+	color: white;
 }
 /*
 .boxx {
@@ -274,7 +274,7 @@ h1 {
 }
 
 .container {
-	margin-top:4% !important;
+	margin-top:1% !important;
 }
 
 
@@ -290,7 +290,7 @@ h1 {
 
 /*.index-body { 
   
-  background: url(http://www.wallpaperup.com/uploads/wallpapers/2012/09/14/14421/big_thumb_2db0a227cf8b300a0970190cb640b2de.jpg) no-repeat center center fixed; 
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/6c/11/e3/6c11e35213adf79ef32bc31f75897f58.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -299,7 +299,7 @@ h1 {
 
 .index-body { 
   
-  background:#3E3E3E;
+  background:white;
 }
 
 .port-row {
@@ -309,7 +309,7 @@ h1 {
   margin-left: auto;
 	border-radius: 1%;
   width: 100%;
-    
+  
 
 }
 
@@ -450,17 +450,54 @@ iframe {
     background-color: white;
     width: 30%;
     margin: 15px;
+    border: solid;
     border-radius: 10px;
-    box-shadow: 8px 8px 5px black;
-    padding: 0px;
+    box-shadow: 8px 8px 5px gray;
+    padding: 2px;
+   
 }
 
 
-.me_box {
-  background-color: white;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 1%;
-  box-shadow: 10px 10px 5px black;
+
+
+
+.port-header {
+  
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/6c/11/e3/6c11e35213adf79ef32bc31f75897f58.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  vertical-align: middle;
+  
+  color:white;
+  margin-top:50px; 
+}
+
+
+.port-text {
+
+   text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 60px;
+}
+
+
+.blog-header {
+  
+  background: url(http://i.kinja-img.com/gawker-media/image/upload/awnbvkta99ky9gssh7cn.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  vertical-align: middle;
+  
+  color:white;
+  margin-top:50px; 
 }
