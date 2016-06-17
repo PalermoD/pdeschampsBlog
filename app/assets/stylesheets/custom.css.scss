@@ -182,7 +182,7 @@ p {
 
 .about_box {
 	background-color: white;
-	margin-top: 75px;
+	margin-top: 55px;
 	padding-left: 20px;
 	padding-right: 20px;
 	float: none;
@@ -192,7 +192,7 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
     
-    box-shadow: 10px 10px 5px black;
+    
 }
 
 
@@ -476,7 +476,7 @@ iframe {
 
 .blog-header {
   
-  background: url(http://i.kinja-img.com/gawker-media/image/upload/awnbvkta99ky9gssh7cn.gif) no-repeat center center; 
+  background: url(http://www.taxi.df.gob.mx/DescargarCita/faces/javax.faces.resource/circle.gif?ln=images) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -486,4 +486,18 @@ iframe {
   
   color:white;
   margin-top:50px; 
+}
+
+
+.about-header {
+  background: url(http://i.kinja-img.com/gawker-media/image/upload/nst72a4sho2f2bawqvmq.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  vertical-align: middle;
+  color:white;
+  margin-top:50px; 
+
 }
