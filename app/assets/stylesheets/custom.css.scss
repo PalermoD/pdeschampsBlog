@@ -14,12 +14,12 @@ $nprogress-color: #f1f1f1;
 /*#D6D6D6*/
 
 .navbar-nav > li > a {
-	color: white !important;
+	color: black !important;
 	font-weight: bolder;
 }
 
 .navbar-nav > li > a:hover {
-	color: black !important;
+	color: white !important;
 	font-weight: bolder;
 }
 
@@ -27,7 +27,7 @@ $nprogress-color: #f1f1f1;
 	float: left;
 	margin-right: 3px;
 	font-size: 1.7em;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 9px;
@@ -36,7 +36,7 @@ $nprogress-color: #f1f1f1;
 }
 
 #logo:hover {
-	color: #fff;
+	color: black;
 	text-decoration: none;
 }
 
@@ -51,8 +51,9 @@ $nprogress-color: #f1f1f1;
 
 .navbar-inverse {
 	
-	background-color: black;
+	background-color: white;
 	border-color: transparent;
+  opacity: 0.8;
 	
 }
 
@@ -326,7 +327,8 @@ h1 {
 
 
 .navbar-nav > li:hover {
-    background-color: white;
+    background-color: black;
+    color:white;
 }
 
 .corner-logo {
@@ -454,7 +456,7 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px;
+  height: 350px;
   vertical-align: middle;
   
   color:white;
@@ -481,7 +483,7 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px;
+  height: 350px;
   vertical-align: middle;
   
   color:white;
@@ -495,7 +497,7 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px;
+  height: 350px;
   vertical-align: middle;
   color:white;
   margin-top:50px; 
