@@ -6,8 +6,8 @@
 @import 'nprogress-bootstrap';
 
 body {
-	
-	background-color: white;
+	color: #524C4C;
+	background-color:#E2E2E2 ;
 }
 
 $nprogress-color: #f1f1f1;
@@ -203,9 +203,7 @@ p {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: 80px;
-    border-radius: 1%;
-    border: solid 1px;
-    box-shadow: 10px 10px 5px gray;
+    
     margin-bottom: 30px;
     
 }
@@ -215,9 +213,7 @@ p {
 	margin-top: 65px;
 	text-align: center;
 	margin-left: 20px;
-	border: solid 1px;
-    box-shadow: 10px 10px 5px gray;
-    border-radius: 1%;
+	
 }
 
 .sidebox2 {
@@ -300,7 +296,7 @@ h1 {
 
 .index-body { 
   
-  background:white;
+  background:#eeeeee ;
 }
 
 .port-row {
@@ -456,11 +452,11 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 450px;
   vertical-align: middle;
   
   color:white;
-  margin-top:50px; 
+  margin-top:-50px; 
 }
 
 
@@ -483,11 +479,11 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 450px;
   vertical-align: middle;
   
   color:white;
-  margin-top:50px; 
+  margin-top:-50px; 
 }
 
 
@@ -497,9 +493,9 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 450px;
   vertical-align: middle;
   color:white;
-  margin-top:50px; 
+  margin-top:-50px; 
 
 }
