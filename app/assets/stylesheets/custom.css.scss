@@ -14,7 +14,7 @@ $nprogress-color: #f1f1f1;
 /*#D6D6D6*/
 
 .navbar-nav > li > a {
-	color: black !important;
+	color: white !important;
 	font-weight: bolder;
 }
 
@@ -27,7 +27,7 @@ $nprogress-color: #f1f1f1;
 	float: left;
 	margin-right: 3px;
 	font-size: 1.7em;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 9px;
@@ -36,13 +36,11 @@ $nprogress-color: #f1f1f1;
 }
 
 #logo:hover {
-	color: black;
+	
 	text-decoration: none;
 }
 
-.icon-bar {
 
-}
 
 .navbar-toggle {
 	background: black !important;
@@ -50,10 +48,10 @@ $nprogress-color: #f1f1f1;
 
 
 .navbar-inverse {
-	
-	background-color: white;
+	position: absolute;
+	background-color: transparent;
 	border-color: transparent;
-  opacity: 0.8;
+  
 	
 }
 
